@@ -1,0 +1,23 @@
+.register-page{
+    background: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+.register-form{
+    background-color: #fff;
+    padding: 20px;
+    color:#000;
+    width: 400px;
+    border-radius: 30px;
+}
+.social-login{
+    text-align: center;
+}
+.social-login li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 30px;
+}
