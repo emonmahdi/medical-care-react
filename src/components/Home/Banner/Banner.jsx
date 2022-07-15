@@ -23,7 +23,7 @@ const Banner = () => {
             <div className="banner-content">
                 <h1>Find your perfect health doctor</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum necessitatibus beatae enim hic at incidunt culpa quod voluptates in possimus.</p>
-                <Link to='register'>
+                <Link to='/register'>
                   <button className="btn btn-success">Register Now</button> 
                 </Link>
             </div>

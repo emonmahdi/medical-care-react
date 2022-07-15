@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom'
+import useAuth from '../../Hooks/useAuth';
 import Navigation from '../../Shared/Navigation/Navigation';
 
 
 import './serviceDetails.css'
 
 const ServiceDetails = () => {
+    const {user} = useAuth();
     const {Title}  = useParams();
     const [serviceDetails, setServiceDetails] = useState([]);
 
@@ -42,19 +44,19 @@ const ServiceDetails = () => {
                             <form>
                                 <div className='mb-2'>
                                     <label htmlFor="name">Name: </label>
-                                    <input type="text" className='form-control' />
+                                    <input type="text" defaultValue={user.displayName} className='form-control' required />
                                 </div>
                                 <div className='mb-2'>
                                     <label htmlFor="email">Email: </label>
-                                    <input type="text" className='form-control' />
+                                    <input type="text" defaultValue={user.email} className='form-control' required />
                                 </div>
                                 <div className='mb-2'>
                                     <label htmlFor="phone">Phone: </label>
-                                    <input type="text" className='form-control' />
+                                    <input type="text" className='form-control' required />
                                 </div>
                                 <div className='mb-2'>
                                     <label htmlFor="address">Address: </label>
-                                    <input type="text" className='form-control' />
+                                    <input type="text" className='form-control' required />
                                 </div>
                                 <div className='my-4'>
                                     <button type='submit' className='btn btn-success d-block w-100'>Booking</button>

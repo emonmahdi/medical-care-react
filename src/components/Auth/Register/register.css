@@ -1,5 +1,6 @@
 .register-page{
     background: #263238;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,4 +21,5 @@
     display: inline-block;
     margin: 10px 15px;
     font-size: 30px;
+    cursor: pointer;
 }
