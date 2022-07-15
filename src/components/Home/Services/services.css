@@ -1,0 +1,11 @@
+#services-section{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.section-title{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}

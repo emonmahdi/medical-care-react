@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Primary Health",
+        "icon": "FcPlus",
+        "img": "https://png.pngtree.com/png-vector/20191004/ourlarge/pngtree-additional-plus-icon-png-image_1788619.jpg",
+        "desc": "Primary health care (PHC) addresses the majority of a person's health needs throughout their lifetime. This includes physical, mental and social well-being and it is people-centred rather than disease-centred"
+    },
+    {
+        "id": 2,
+        "title": "Gynecologists",
+        "icon": "plus",
+        "img": "https://icon-library.com/images/gynecology-icon/gynecology-icon-6.jpg",
+        "desc": "A gynecologist is a doctor who specializes in female reproductive health. They diagnose and treat issues related to the female reproductive tract. This includes the uterus, fallopian tubes, and ovaries and breasts."
+    },
+    {
+        "id": 3,
+        "title": "Diagnostic Center",
+        "icon": "plus",
+        "img": "https://thumbs.dreamstime.com/b/medical-center-building-icon-circle-flat-white-vector-illustration-web-95328333.jpg",
+        "desc": "Medical diagnosis of patients of various ages and genders is done at a diagnostic centre. These centres are equipped with the required laboratory equipments and trained staff along with medical personnel that assist them in the process of identifying diseases in a patientwho is showing particular symptoms or signs."
+    },
+    {
+        "id": 4,
+        "title": "Cardiologist",
+        "icon": "plus",
+        "img": "https://www.seekpng.com/png/detail/460-4604327_swiftsure-preventative-medicine-1-cardiology-icon.png",
+        "desc": "A cardiologist is a physician who's an expert in the care of your heart and blood vessels. They can treat or help you prevent a number of cardiovascular problems. They can also specialize in specific areas, such as abnormal heart rhythms, heart failure or heart problems you’ve had since birth."
+    },
+    {
+        "id": 5,
+        "title": "Dental Surgery",
+        "icon": "plus",
+        "img": "https://cdn-icons-png.flaticon.com/512/5793/5793497.png",
+        "desc": "Oral surgery refers to any surgical procedure performed on your teeth, gums, jaws or other oral structures. This includes extractions, implants, gum grafts and jaw surgeries. Oral surgery is usually performed by an oral and maxillofacial surgeon or a periodontist. These are dental specialists who have advanced training in oral surgery procedures."
+    },
+    {
+        "id": 6,
+        "title": "Psychologists",
+        "icon": "plus",
+        "img": "https://img.lovepik.com/element/45009/5221.png_860.png",
+        "desc": "Psychologists often define learning as a relatively permanent change in behavior as a result of experience. The psychology of learning focuses on a range of topics related to how people learn and interact with their environments"
+    }
+]

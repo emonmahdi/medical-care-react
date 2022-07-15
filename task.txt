@@ -1,0 +1,66 @@
+Task Detail:
+----------------------
+1. Website has to be a healthcare related website. It could be related to a general hospital, specialized hospital, diagnostic Lab, Doctors' chamber, Dental clinic, eye care hospital, Pharmacy, medicine, physical therapy, exercise, gym, healthcare tech, nursing service, elderly home, mental care, Feminine care, Ambulance service, etc.
+
+2. Make sure your design and website idea is unique. First, finalize your idea (what type of website you want to build). Then google the site design or visit themeforest. to get your website idea. However, your website can not be related to your previous assignments or any demo project displayed in the course or in our conceptual sessions.-- Done
+
+3. Home page will have a header (simple navbar), banner, services, and footer--Done
+
+4. Add two extra sections in the home page in addition to the 4 sections mentioned above.--Done
+
+5. The Services section will have at least 6 services. You can put one or more services in a row based on your design. Each service should have a relevant name, image, short description and a specific button.--Done
+
+6. Clicking on the button will take the user to the service detail route. Each route should display detailed information of the service along with the image of the service.--Done
+
+7. This route will be private/protected routes. Please make sure that if the user is not logged in, the private route redirects to the login page.
+
+8. You Must implement Email and password based Authentication. This means, you will have to implement the Registration and the login page. Users should be able to toggle between Login and Registration view .
+
+9. Also, implement at least one extra login which could be (facebook, github, google, etc).
+
+10. Once logged in, the user name, logout button should appear on the header which will log out the user once clicked. Displaying user profile pic on the header is optional.
+
+11. Add two more routes. Relevant to your website. These two routes will be private. You can put anything relevant to your site on these two routes.
+
+12. Will need a 404 page (not found page)
+
+Bonus:
+-----------
+13. Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website has to be relevant. No lorem ipsum please.
+
+14. Meaningful readme.md file containing your website name, a little description, link to your live site. And at least five bullet points mentioning different features and functionality of your website.
+
+15. After reloading the page on a private route, the user should not be redirected to the login page.
+
+16. Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional
+
+17. Use Context API
+18. Clean and organized Code. Organize components and add comments when needed
+19. Display some error when user email address or password don't match.
+
+Optional:
+-----------
+20. Though Email and password validation is not mandatory for marks. We highly recommend to implement those.
+
+21. You may use react hook form, basic html form or any library for authentication
+22. Add some mouseover animation while taking the mouse on the services card
+23. If you want to take a challenge. consider using react-leaflet
+24. Please Use icons whenever applicable and use fonts
+25. Make the footer little more realistic
+26. Optimize your images
+27. Add something extra of your own. This will help you in the future.
+28. Allow creation of multiple accounts with the same email address
+29. Additional information:
+30. If needed, create your own fake data. you can load the data from a .json file or you can host it anywhere you want.
+31. You can use local image or host image anywhere if you want or both.
+32. You are free to use any css library you want. But, we recommend using tailwind css.
+33. If needed you can mix CSS framework with a component library
+34. Use firebase auth
+35. Local storage is optional
+36. Environment variable is recommended but optional
+37. Try to host your site on Firebase (netlifiy host will need extra configuration)
+
+What to submit
+Your github repository
+Your live website link
+Have FUN! Have Patience.
