@@ -4,6 +4,7 @@ import AuthProvider from './components/Auth/AuthProvider/AuthProvider';
 import Login from './components/Auth/Login/Login';
 import PrivateRoute from './components/Auth/PrivateRoute/PrivateRoute';
 import Register from './components/Auth/Register/Register';
+import Error from './components/Error/Error';
 import Home from './components/Home/Home/Home';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 
@@ -17,6 +18,7 @@ function App() {
               <Route path='/service/:Title' element={<PrivateRoute><ServiceDetails /></PrivateRoute> } />
               <Route path='/login' element={<Login />} />
               <Route path='/register' element={<Register />} />
+              <Route path='*' element={<Error />} />
           </Routes>
        </BrowserRouter>
     </AuthProvider>

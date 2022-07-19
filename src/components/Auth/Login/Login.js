@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import  * as FaIcons from "react-icons/fa";
 
@@ -10,7 +10,9 @@ import Navigation from '../../../Shared/Navigation/Navigation';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
-    const {user, signInUsingGoogle, setUser, setError, setIsLoading} =  useAuth();
+    const {user, signInUsingGoogle, setUser, setError, setIsLoading,loginUser} =  useAuth();
+    const [loginData, setLoginData] = useState({}) 
+
     const location = useLocation();
     const navigate = useNavigate();
 
@@ -28,8 +30,19 @@ const Login = () => {
         }).finally(() => setIsLoading(false));
     }
 
+    const handleChange = (e) => {
+        const filed = e.target.name;
+        const value = e.target.value;
+        let newValue = { ...loginData }
+        newValue[filed] = value;
+        setLoginData(newValue);
+        console.log(newValue);
+
+    } 
+
     const handleSubmit = (e) => {
         e.preventDefault();
+        loginUser(loginData.email, loginData.password, navigate, location)
     }
     return (
         <>
@@ -40,16 +53,16 @@ const Login = () => {
                 <h2 className='text-center '>Sign In</h2>   
                  <div className='mb-3'>
                     <label htmlFor="email">Email: </label>
-                    <input type="email" id='email' name='email' className='form-control' />    
+                    <input type="email" onChange={handleChange} id='email' name='email' className='form-control' />    
                 </div>   
                  <div className='mb-3'>
                     <label htmlFor="password">Password: </label>
-                    <input type="password" id='password' name='password' className='form-control' />    
+                    <input type="password" onChange={handleChange} id='password' name='password' className='form-control' />    
                 </div>    
                 <div>
                     <button type='submit' className='btn btn-success'>Sign In</button>    
                 </div> 
-                <div className='text-end my-3 '>
+                <div className='text-end my-3'>
                     <span>New User Registration! <Link to='/register'>Register</Link> </span>
                 </div> 
                 <div className='social-login-items mt-4'>
