@@ -1,0 +1,9 @@
+.doctors-section{
+    padding: 50px 0;
+}
+.social-link-doctor i{
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 20px;
+    color:rgb(5, 104, 104);
+}

@@ -22,7 +22,7 @@ Task Detail:
 
 11. Add two more routes. Relevant to your website. These two routes will be private. You can put anything relevant to your site on these two routes.
 
-12. Will need a 404 page (not found page)
+12. Will need a 404 page (not found page)-- Done
 
 Bonus:
 -----------
