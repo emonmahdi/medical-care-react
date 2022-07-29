@@ -25,8 +25,9 @@ const Navigation = () => {
             navbarScroll>
               <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
               <Nav.Link as={HashLink} to="/home#about-section">About</Nav.Link>
-              <Nav.Link as={HashLink} to="/home#services-section">Services</Nav.Link>
-              <Nav.Link as={HashLink} to="/home#blog-section">Blogs</Nav.Link>
+              <Nav.Link as={HashLink} to="/home#services-section">Services</Nav.Link> 
+              <Nav.Link as={Link } to="/blogs">Blogs</Nav.Link>
+              <Nav.Link as={Link } to="/our-doctors">Doctors</Nav.Link>
               <Nav.Link as={HashLink} to="#pricing">Contact</Nav.Link>
 
 

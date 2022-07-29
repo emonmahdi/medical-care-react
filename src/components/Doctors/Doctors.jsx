@@ -4,9 +4,14 @@ import './doctors.css'
 import doctor1 from '../../Assets/doctor1.png'
 import doctor2 from '../../Assets/doctor2.png'
 import doctor3 from '../../Assets/doctor3.png'
+import Navigation from '../../Shared/Navigation/Navigation';
+import Footer from '../../Shared/Footer/Footer';
 
 const Doctors = () => {
     return (
+        <>
+            <Navigation />
+        
         <div className='doctors-section'>
             <div className="container">
                 <div className="doctors-title w-50">
@@ -73,6 +78,8 @@ const Doctors = () => {
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
     );
 };
 

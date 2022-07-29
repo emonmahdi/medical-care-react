@@ -3,11 +3,16 @@ import React from 'react';
 import blog1 from "../../../Assets/operation-1.jpg"
 import blog2 from "../../../Assets/operation-2.jpg"
 import blog3 from "../../../Assets/operation-3.jpg"
+import Footer from '../../../Shared/Footer/Footer';
+import Navigation from '../../../Shared/Navigation/Navigation';
 import './blog.css'
 
 
 const Blogs = () => {
     return (
+        <>
+            <Navigation />
+        
         <div id='blog-section'>
            <div className="container">
                 <div className="blog-sec-title w-50">
@@ -54,6 +59,8 @@ const Blogs = () => {
                 </div>
            </div>
         </div>
+        <Footer />
+        </>
     );
 };
 
