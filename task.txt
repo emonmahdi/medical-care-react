@@ -26,7 +26,7 @@ Task Detail:
 
 Bonus:
 -----------
-13. Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website has to be relevant. No lorem ipsum please.
+13. Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website has to be relevant. No lorem ipsum please.-- Done.
 
 14. Meaningful readme.md file containing your website name, a little description, link to your live site. And at least five bullet points mentioning different features and functionality of your website.
 

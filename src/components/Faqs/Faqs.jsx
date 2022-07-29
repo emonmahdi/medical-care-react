@@ -12,9 +12,7 @@ const Faqs = () => {
           <h6 className="text-success">FAQ's</h6>
           <h2>Frequently Asked Questions</h2>
           <p className="my-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            corporis eos deserunt voluptates expedita repudiandae quaerat cumque
-            aperiam error magnam!
+          A frequently asked questions list is often used in articles, websites, email lists, and online forums where common questions tend to recur
           </p>
         </div>
         <div className="row d-flex align-items-center">
@@ -30,14 +28,7 @@ const Faqs = () => {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Why do I get sick?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  Whenever the normal working of our body system gets disturbed, we feel sick. It can happen when a bacterium, virus, etc, enters our body or because of unhealthy living practices like lack of exercise or intake of drugs/excessive sugar/salt. There are two major kinds of diseases: infectious and non-infectious.
                   </Accordion.Body>
                 </Accordion.Item>
                 {/* single accordion item */}
@@ -46,56 +37,28 @@ const Faqs = () => {
                     What does the immune system do?{" "}
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  What is the immune system? The immune system protects your child's body from outside invaders. These include germs such as bacteria, viruses, and fungi, and toxins (chemicals made by microbes). The immune system is made up of different organs, cells, and proteins that work together..
                   </Accordion.Body>
                 </Accordion.Item>
                 {/* single accordion item */}
                 <Accordion.Item eventKey="2">
                   <Accordion.Header>What are allergies?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  Allergies occur when your immune system reacts to a foreign substance — such as pollen, bee venom or pet dander — or a food that doesn't cause a reaction in most people. Your immune system produces substances known as antibodies.
                   </Accordion.Body>
                 </Accordion.Item>
                 {/* single accordion item */}
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>Do our intestines contain germs?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  Living inside of your gut are 300 to 500 different kinds of bacteria containing nearly 2 million genes. Paired with other tiny organisms like viruses and fungi, they make what's known as the microbiota, or the microbiome.
                   </Accordion.Body>
                 </Accordion.Item>
                 {/* single accordion item */}
                 <Accordion.Item eventKey="4">
                   <Accordion.Header>What are antibiotics?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  An antibiotic is a type of antimicrobial substance active against bacteria. It is the most important type of antibacterial agent for fighting bacterial infections, and antibiotic medications are widely used in the treatment and prevention of such infections. They may either kill or inhibit the growth of bacteria.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>

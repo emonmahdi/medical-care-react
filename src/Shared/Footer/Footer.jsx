@@ -14,7 +14,7 @@ const Footer = () => {
                             <img src={footerLogo} width='60px' height='60px' className='img-fluid me-2' alt="" />
                             <span className='fw-bold'>Medical Care</span>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis laborum quam in. Laboriosam, ipsa.</p>
+                        <p>These are usually internal medicine (internists) or family medicine doctors. Getting an annual checkup can help your doctor spot health issues early on.</p>
                         <div className="footer-social-icon">
                             <span><FaIcons.FaFacebookF /></span>
                             <span><FaIcons.FaYoutube /></span>

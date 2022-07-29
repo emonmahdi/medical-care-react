@@ -18,9 +18,7 @@ const Doctors = () => {
                 <h6 className="text-success">Our Doctors</h6>
                 <h2>Meet Our Doctors</h2>
                 <p className="my-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                    corporis eos deserunt voluptates expedita repudiandae quaerat cumque
-                    aperiam error magnam!
+                If someone has a doctoral or medical degree, ‘Dr. [Last name] is correct in email etiquette. If no name is supplied, ‘Dear Sir or Madam’ is always acceptable. If you know the gender of the recipient, alter this as appropriate.
                 </p>
                 </div>
                 <div className="row">
@@ -29,9 +27,9 @@ const Doctors = () => {
                         <div className="single-doctor text-center shadow p-3 ">
                             <div className="card p-2">
                                 <img src={doctor1} className='img-fluid w-50 mx-auto' alt="doctor one" />
-                                <h3 className='mt-2'>John Adams</h3>
+                                <h3 className='mt-2'>Dr. Ahmad believes</h3>
                                 <h6>Dentist</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis natus reprehenderit ducimus repellat labore quasi?</p>
+                                <p>Dr. Ahmad believes every patient deserves an individual, personal approach to fertility. She treats with a deep understanding of a patient’s goals and the best of medical science and innovation.</p>
                                 <div className="social-link-doctor ">
                                     <i className='fa fa-facebook'> </i>
                                     <i className='fa fa-twitter'> </i>
@@ -46,9 +44,9 @@ const Doctors = () => {
                         <div className="single-doctor text-center shadow p-3 ">
                             <div className="card p-2">
                                 <img src={doctor2} className='img-fluid w-50 mx-auto' alt="doctor one" />
-                                <h3 className='mt-2'>John Adams</h3>
+                                <h3 className='mt-2'>Dr. Burks</h3>
                                 <h6>Dentist</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis natus reprehenderit ducimus repellat labore quasi?</p>
+                                <p>Dr. Burks Chatmon considers compassionate care and shared decision-making the cornerstones of every patient relationship.</p>
                                 <div className="social-link-doctor ">
                                     <i className='fa fa-facebook'> </i>
                                     <i className='fa fa-twitter'> </i>
@@ -63,9 +61,9 @@ const Doctors = () => {
                         <div className="single-doctor text-center shadow p-3 ">
                             <div className="card p-2">
                                 <img src={doctor3} className='img-fluid w-50 mx-auto' alt="doctor one" />
-                                <h3 className='mt-2'>John Adams</h3>
+                                <h3 className='mt-2'>Dr. Kaplan</h3>
                                 <h6>Dentist</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis natus reprehenderit ducimus repellat labore quasi?</p>
+                                <p>Dr. Kaplan has a personalized approach and thoroughly explores all possible options. He has helped thousands realize their dream of family.</p>
                                 <div className="social-link-doctor ">
                                     <i className='fa fa-facebook'> </i>
                                     <i className='fa fa-twitter'> </i>
